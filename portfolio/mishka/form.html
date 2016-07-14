@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mishka - Вязание на заказ</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__wrapper">
+        <!-- Навигация -->
+        <nav class="main-nav">
+          <!-- Логотип -->
+          <div class="main-nav__logo">
+            <a class="logo" href="index.html">
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
+                <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+                <img class="logo__icon" src="img/logo-mobile.svg" width="86" height="35" alt="логотип Mishka">
+              </picture>
+            </a>
+          </div>
+          <!-- .Логотип -->
+          <button class="main-nav__toggle" type="button"></button>
+          <ul class="main-nav__items">
+            <li class="main-nav__item"><a class="main-nav__link" href="catalog.html" title="Перейти в каталог товаров">Каталог товаров</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" title="Заказать вязание">Вязание на заказ</a></li>
+          </ul>
+          <ul class="main-nav__user-items">
+            <li class="main-nav__user-item  main-nav__user-item--search">
+              <a class="main-nav__link  main-nav__link--hidden" href="#" title="Вы можете найти нужный вам товар в поиске">
+                <svg class="icon-state  icon-state--search" width="20" height="20">
+                  <use xlink:href="img/symbols.svg#icon-search" />
+                </svg>Поиск по сайту
+              </a>
+            </li>
+            <li class="main-nav__user-item  main-nav__user-item--cart">
+              <a class="main-nav__link  main-nav__link-cart" href="#" title="Заказать вязание">
+                <svg class="icon-state  icon-state--cart" width="20" height="20">
+                  <use xlink:href="img/symbols.svg#icon-cart" />
+                </svg>Корзина: <span class="main-nav__value-cart">пока пуста</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="main-nav__attracting">
+            <li class="main-nav__attracting-item"><a class="main-nav__link" href="#" title="Узнать о новых поступлениях">Новые поступления</a></li>
+            <li class="main-nav__attracting-item"><a class="main-nav__link" href="#" title="Узнать о распродажах">Распродажа</a></li>
+            <li class="main-nav__delivery">Бесплатная доставка по России</li>
+          </ul>
+        </nav>
+        <!-- .Навигация -->
+      </div>
+    </header>
+
+
+    <main class="page-main">
+      <!-- Заголовок страницы-->
+      <div class="content-header">
+        <div class="container  container--column">
+          <h1 class="content-header__title">Вязание на заказ</h1>
+        </div>
+      </div>
+      <!-- .Заголовок страницы-->
+
+        <!-- Форма заказа вязания вещей -->
+        <form class="form-knitting" action="#" method="get">
+          <div class="container  container--flex">
+            <p class="form-knitting__council">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа, и мы свяжемся с вами, чтобы уточнить детали.</p>
+          </div>
+
+
+          <!-- Раздел ТИП -->
+          <section class="form-knitting__set">
+            <div class="container  container--flex">
+              <div class="form-knitting__title">Тип</div>
+              <div class="form-knitting__wrapper">
+                <label class="radio">
+                  <input class="radio__value" type="radio" name="knitting-radio" value="Аксессуары для интерьера" checked>
+                  <span class="radio__title">Аксессуар для интерьера</span>
+                  <span class="radio__state"></span>
+                </label>
+                <label class="radio">
+                  <input class="radio__value" type="radio" name="knitting-radio" value="Детская игрушка">
+                  <span class="radio__title">Детская игрушка</span>
+                  <span class="radio__state"></span>
+                </label>
+              </div>
+            </div>
+          </section>
+          <!-- .Раздел ТИП -->
+
+          <!-- Раздел ЦВЕТ -->
+            <section class="form-knitting__set  form-knitting__set--repainting">
+              <div class="container  container--flex">
+                <div class="form-knitting__title">Цвет</div>
+                <div class="form-knitting__wrapper  form-knitting__wrapper--color">
+                  <label class="checkbox">
+                    <input class="checkbox__value" type="checkbox" name="knitting-checkbox" value="Белый" checked>
+                    <span class="checkbox__title">Белый</span>
+                    <span class="checkbox__state"></span>
+                  </label>
+                  <label class="checkbox">
+                    <input class="checkbox__value" type="checkbox" name="knitting-checkbox" value="Серый" checked>
+                    <span class="checkbox__title">Серый</span>
+                    <span class="checkbox__state"></span>
+                  </label>
+                  <label class="checkbox">
+                    <input class="checkbox__value" type="checkbox" name="knitting-checkbox" value="Тиффани">
+                    <span class="checkbox__title">«Тиффани»</span>
+                    <span class="checkbox__state"></span>
+                  </label>
+                  <label class="checkbox">
+                    <input class="checkbox__value" type="checkbox" name="knitting-checkbox" value="Чёрный">
+                    <span class="checkbox__title">Чёрный</span>
+                    <span class="checkbox__state"></span>
+                  </label>
+                  <label class="checkbox">
+                    <input class="checkbox__value" type="checkbox" name="knitting-checkbox" value="Розовый">
+                    <span class="checkbox__title">Розовый</span>
+                    <span class="checkbox__state"></span>
+                  </label>
+                  <label class="checkbox">
+                    <input class="checkbox__value" type="checkbox" name="knitting-checkbox" value="Оранжевый">
+                    <span class="checkbox__title">Оранжевый</span>
+                    <span class="checkbox__state"></span>
+                  </label>
+                </div>
+              </div>
+            </section>
+          <!-- .Раздел ЦВЕТ -->
+
+          <!-- Раздел ФИО -->
+          <section class="form-knitting__set  form-knitting__set--full-name">
+            <div class="container  container--flex">
+              <div class="form-knitting__title">ФИО</div>
+              <div class="form-knitting__wrapper">
+                <label class="input">
+                  <span class="input__title">Фамилия:</span>
+                  <input class="input__value" type="text" name="fields" placeholder="Укажите фамилию">
+                </label>
+                <label class="input">
+                  <span class="input__title">Имя:</span>
+                  <input class="input__value" type="text" name="fields" placeholder="Введите ваше имя">
+                </label>
+                <label class="input">
+                  <span class="input__title">Отчество:</span>
+                  <input class="input__value" type="text" name="fields" placeholder="Отчество, если желаете">
+                </label>
+              </div>
+            </div>
+          </section>
+          <!-- Раздел ФИО -->
+
+          <!-- Раздел с вводом номера телефона -->
+            <section class="form-knitting__set  form-knitting__set--repainting  form-knitting__set--tel">
+              <div class="container  container--flex">
+                <label class="form-knitting__title  form-knitting__title--stick" for="tel">Тел</label>
+                <div class="form-knitting__wrapper">
+                  <label class="input  input--stick">
+                    <input class="input__value  input__value--tel-bg  input__value--stick" id="tel" type="tel" name="tel" placeholder="+7 ХХХ XXX ХХ ХХ">
+                    <svg class="icon-state  icon-state--input" width="25" height="25">
+                      <use xlink:href="img/symbols.svg#icon-phone" />
+                    </svg>
+                  </label>
+                </div>
+              </div>
+            </section>
+          <!-- .Раздел с вводом номера телефона -->
+
+          <!-- Раздел с вводом электронной почты -->
+            <section class="form-knitting__set  form-knitting__set--repainting  form-knitting__set--email">
+              <div class="container  container--flex">
+                <label class="form-knitting__title  form-knitting__title--stick" for="mail">E-mail</label>
+                <div class="form-knitting__wrapper">
+                  <label class="input  input--stick">
+                    <input class="input__value  input__value--email-bg  input__value--stick" id="mail" type="email" name="email" placeholder="Ваш e-mail">
+                    <svg class="icon-state  icon-state--input" width="30" height="30">
+                      <use xlink:href="img/symbols.svg#icon-mail" />
+                    </svg>
+                  </label>
+                </div>
+              </div>
+            </section>
+          <!-- .Раздел с вводом электронной почты -->
+
+          <!-- Раздел с вводом пожеланий -->
+          <section class="form-knitting__set  form-knitting__set--frame">
+            <div class="container  container--flex">
+              <label class="form-knitting__title" for="additional">Доп</label>
+              <div class="form-knitting__wrapper">
+                <label class="input">
+                  <textarea class="input__value  input__value--frame" id="additional" name="wishes" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+                </label>
+              </div>
+            </div>
+          </section>
+          <!-- .Раздел с вводом пожеланий -->
+
+          <div class="container container--flex">
+            <button class="button  button--average  button--knitting" type="button" name="knitting-button">Отправить заказ</button>
+            <div class="form-knitting__delivery">Все поля являются обязательными</div>
+          </div>
+        </form>
+        <!-- .Форма заказа вязания вещей-->
+
+    </main>
+
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper  container">
+        <div class="logo-footer  page-footer__column">
+          <a href="index.html">
+            <svg class="icon-state" width="100" height="35">
+              <use xlink:href="img/symbols.svg#logo-footer" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Социальные кнопки -->
+        <div class="social-links  page-footer__column">
+          <a href="#" class="social-link" title="Перейти в нашу группу в Instagram.">
+            <svg class="icon-state" width="20" height="20">
+              <use xlink:href="img/symbols.svg#icon-insta" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" title="Перейти в группу Facebook.">
+            <svg class="icon-state" width="20" height="20">
+              <use xlink:href="img/symbols.svg#icon-fb" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" title="Прочитать новости о нас в Twitter.">
+            <svg class="icon-state" width="20" height="20">
+              <use xlink:href="img/symbols.svg#icon-twitter" />
+            </svg>
+          </a>
+        </div>
+        <!-- .Социальные кнопки -->
+
+        <!-- Копирайт -->
+        <div class="copyright  page-footer__column">
+          <a class="copyright__title" href="https://htmlacademy.ru/" title="Перейти на сайт разработичка">
+            Разработано
+            <svg class="icon-state  icon-state--logo-htmlacademy" width="30" height="35">
+              <use xlink:href="img/symbols.svg#logo-htmlacademy" />
+            </svg>
+          </a>
+        </div>
+        <!-- .Копирайт -->
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/picturefill.js"></script>
+    <script src="js/svg4everybody.js"></script>
+    <script>svg4everybody();</script>
+  </body>
+</html>

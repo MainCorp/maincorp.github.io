@@ -1,0 +1,1 @@
+var link=document.querySelector(".open-menu"),menu=document.querySelector(".full-menu"),close=document.querySelector(".close-menu");link.addEventListener("click",function(e){e.preventDefault(),menu.classList.add("full-menu-show")}),close.addEventListener("click",function(e){e.preventDefault(),menu.classList.remove("full-menu-show")});
