@@ -1117,6 +1117,12 @@ a.diploms__assessment:active {
 	padding-left: 20px;
 }
 
+.contact-me__ps {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+
 .contact-form {
 	width: 540px;
 	display: -webkit-box;
@@ -1130,13 +1136,11 @@ a.diploms__assessment:active {
 	        flex-direction: column;
 }
 
-.contact-form label {
+.contact-form > form label {
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	line-height: 30px;
 	color: #fff;
-
-	margin-top: 35px;
 }
 
 .contact-form label:nth-child(1) {
@@ -1152,6 +1156,7 @@ a.diploms__assessment:active {
 	border: none;
 
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .contact-form__textarea {
@@ -1191,6 +1196,10 @@ a.diploms__assessment:active {
 
 .contact-form__button:active {
 	opacity: .6;
+}
+
+.contact-form__button:disabled {
+	opacity: .3;
 }
 
 .footer-wrapper {
