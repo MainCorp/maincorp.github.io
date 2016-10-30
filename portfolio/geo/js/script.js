@@ -9,7 +9,7 @@ btnSendCoords.addEventListener('click', function(evt) {
   navigator.geolocation.getCurrentPosition(function(pos) {
     var geo = pos.coords;
     latitude.innerHTML = geo.latitude;
-    longitude.innerTML = geo.longitude;
+    longitude.innerHTML = geo.longitude;
   });
 
 });
