@@ -1,0 +1,24 @@
+.send-coords {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background: #19c9fa;
+  border: 1px solid #fff;
+  transition: .3s;
+}
+
+.send-coords:hover {
+  background: #fff;
+  color: #19c9fa;
+  border: 1px solid #19c9fa;
+  border-radius: 3px;
+}
+
+.send-coords:active {
+  background: #39b533;
+  color: #fff;
+  border: 1px solid #fff;
+}
